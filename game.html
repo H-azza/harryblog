@@ -5,17 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Guess</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300&display=swap" rel="stylesheet">
     <script src='main.js'></script>
     <link rel='stylesheet' href='main.css' />
 </head>
 <body>
 
+  <div class="nav">
+    <h1>Guessing Game</h1>
+      </div>
+  <a class="back" href="index.html">Back</a>
 
 
     <div class='content'>
-      <div class='game'>
+      <div id='game'>
           <label>Number: <input type='text' id='number'/></label>
-          <button onclick='compare()'>Your number</button>
+          <button onclick='compare()'>Your guess</button>
+          <button onclick='resetGame()'>Reset</button>
       </div>
       <div id = 'tries'>
         </div>
